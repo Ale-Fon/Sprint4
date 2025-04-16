@@ -242,7 +242,7 @@ class SOSGui:
             else:
                 self.blue_player = cpuPlayer("Blue")
 
-            # Red player
+            
             if self.red_type.get() == "Human":
                 self.red_player = humanPlayer("Red", lambda: self.red_choice.get())
             else:
